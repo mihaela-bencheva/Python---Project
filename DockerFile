@@ -1,0 +1,5 @@
+docker run --rm -it -v C:\Users\VikS\PycharmProjects\course-work-basic-crawler:/app -w /app python:3.10 bash
+
+pip install pipenv
+
+pipenv install requests bs4
